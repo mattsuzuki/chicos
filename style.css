@@ -61,7 +61,8 @@ img {
   color: white;
 }
 
-h4 {
+h4,
+h5 {
   text-align: center;
   font-size: 35px;
   margin-top: 45px;
@@ -71,7 +72,9 @@ h4 {
 .lookbook {
   background: black;
   margin-top: 40px;
+  border-top: 3px solid black;
 }
+
 .lookbook img {
   width: 100%;
   height: 500px;
@@ -83,7 +86,9 @@ h4 {
     height: 700px;
   }
 }
-
+.shop-cat {
+  margin-bottom: 25px;
+}
 .three-blocks {
   margin-top: 40px;
 }
@@ -98,7 +103,40 @@ h4 {
   padding: 100px 40px 100px 40px;
   text-align: center;
   margin-bottom: 40px;
+  color: whitesmoke;
+  position: relative;
 }
+
+.three-blocks .block:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.three-blocks h2 {
+  position: relative;
+  z-index: 2;
+}
+
+.three-blocks .middle-block {
+  background-image: url('images/prints.jpeg');
+  background-size: cover;
+}
+
+.three-blocks .block-1 {
+  background-image: url('images/image3.png');
+  background-size: cover;
+}
+
+.three-blocks .block-3 {
+  background-image: url('images/specials.jpg');
+  background-size: cover;
+}
+
 @media (min-width: 765px) {
   .three-blocks .block {
     flex: 1;
