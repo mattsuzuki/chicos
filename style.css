@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: crosshair;
+  cursor: 20px;
 }
 
 body {
@@ -31,9 +33,10 @@ img {
 }
 .header h1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
   margin-bottom: 10px;
   color: white;
+  font-family: 'Bahianita', cursive;
 }
 
 @media (min-width: 765px) {
@@ -56,6 +59,13 @@ img {
 .header a {
   text-decoration: none;
   color: white;
+}
+
+h4 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 45px;
+  font-family: 'Bahianita', cursive;
 }
 
 .lookbook {
@@ -116,4 +126,8 @@ img {
 
 .footer img {
   width: 26px;
+}
+
+.about-me {
+  font-family: 'Bahianita', cursive;
 }
