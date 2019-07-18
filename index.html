@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Chico's Closet | Welcome</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="width">
+        <h1>Chico's Closet</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="lookbook">
+      <img src="images/image1.jpeg" />
+      <img src="images/image2.jpeg" />
+      <img src="images/image3.jpeg" />
+      <img src="images/image4.jpeg" />
+      <img src="images/image5.jpeg" />
+    </div>
+    <div class="three-blocks">
+      <div class="width">
+        <div class="block">
+          <h2>Street Wear</h2>
+        </div>
+        <div class="block middle-block">
+          <h2>Prints</h2>
+        </div>
+        <div class="block">
+          <h2>Specials</h2>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="width">
+        <iframe
+          width="100%"
+          height="500px"
+          src="https://www.youtube.com/embed/uMtmOA8DOYg"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="width">
+        <p>&copy;Chico's Closet</p>
+
+        <p>
+          <a href="#"><img src="images/instagram.png"/></a>
+        </p>
+      </div>
+    </div>
+  </body>
+  <script>
+    $('.lookbook').slick({
+      autoplay: true,
+      arrows: false
+    })
+  </script>
+</html>

@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.width {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.header {
+  background: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 765px) {
+  .header .width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.header h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+@media (min-width: 765px) {
+  .header h1 {
+    margin-bottom: 0;
+  }
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+}
+
+.header li {
+  list-style: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.lookbook {
+  background: black;
+  margin-top: 40px;
+}
+.lookbook img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+
+@media (min-width: 765px) {
+  .lookbook img {
+    height: 700px;
+  }
+}
+
+.three-blocks {
+  margin-top: 40px;
+}
+@media (min-width: 765px) {
+  .three-blocks .width {
+    display: flex;
+  }
+}
+
+.three-blocks .block {
+  background: #ccc;
+  padding: 100px 40px 100px 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 765px) {
+  .three-blocks .block {
+    flex: 1;
+  }
+  .three-blocks .middle-block {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: black;
+  margin-top: 40px;
+  color: white;
+}
+
+.footer .width {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer img {
+  width: 26px;
+}
