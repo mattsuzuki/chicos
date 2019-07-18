@@ -8,6 +8,25 @@
       href="https://fonts.googleapis.com/css?family=Bahianita&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Barriecito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <link rel="stylesheet" href="style.css" />
 
     <title>About Me</title>
@@ -23,13 +42,27 @@
         </ul>
       </div>
     </div>
-    <h1 class="about-me">About Me</h1>
-    <p>
-      Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-      laying out print, graphic or web designs. The passage is attributed to an
-      unknown typesetter in the 15th century who is thought to have scrambled
-      parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen
-      book. It usually begins with:
-    </p>
+    <div class="chico-info">
+      <h1 class="about-me">About Me</h1>
+      <div class="top-flex">
+        <img src="images/chicoabout.jpg" />
+        <img src="images/Chicobow.jpg" />
+        <img src="images/chicoed.jpg" />
+        <img src="images/chicon.jpg" />
+      </div>
+      <p class="par-font">
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+        laying out print, graphic or web designs. The passage is attributed to
+        an unknown typesetter in the 15th century who is thought to have
+        scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
+        type specimen book. It usually begins with:
+      </p>
+    </div>
   </body>
+  <script>
+    $('.top-flex').slick({
+      autoplay: true,
+      arrows: false
+    })
+  </script>
 </html>
