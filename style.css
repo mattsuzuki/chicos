@@ -55,8 +55,7 @@ img {
   margin-right: 10px;
   margin-left: 10px;
 }
-
-.header a {
+.header li:hover red .header a {
   text-decoration: none;
   color: white;
 }
@@ -105,6 +104,7 @@ h5 {
   margin-bottom: 40px;
   color: whitesmoke;
   position: relative;
+  border: 3px solid black;
 }
 
 .three-blocks .block:after {
@@ -135,6 +135,10 @@ h5 {
 .three-blocks .block-3 {
   background-image: url('images/specials.jpg');
   background-size: cover;
+}
+
+.three-blocks .block:hover {
+  color: red;
 }
 
 @media (min-width: 765px) {
