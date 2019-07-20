@@ -240,3 +240,18 @@ h5 {
     display: flex;
   }
 }
+/* Contact */
+
+.con {
+  margin-bottom: 25px;
+}
+
+.get-ahold {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-transform: uppercase;
+}
+
+.get-ahold h3 {
+  margin-bottom: 20px;
+}
