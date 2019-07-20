@@ -243,15 +243,38 @@ h5 {
 /* Contact */
 
 .con {
-  margin-bottom: 25px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+.contact-me h6 {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 20px;
+  font-family: 'Bahianita';
+}
+@media (min-width: 765px) {
+  .contact-me h6 {
+    text-align: left;
+  }
 }
 
 .get-ahold {
   padding-left: 5%;
   padding-right: 5%;
-  text-transform: uppercase;
+  font-family: 'Bahianita';
+  font-size: 25px;
 }
 
 .get-ahold h3 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.get-ahold h3 a {
+  text-decoration: none;
+}
+.filler img {
+  border: 4px solid black;
 }
