@@ -50,6 +50,7 @@ img {
   justify-content: center;
   font-family: 'Barriecito', cursive;
   font-size: 25px;
+  text-decoration: underline overline;
 }
 .fadeIn {
   animation: fadeIn 2.5s;
@@ -74,7 +75,7 @@ img {
   color: white;
 }
 
-a:hover {
+.header a:hover {
   color: red;
 }
 
@@ -82,13 +83,13 @@ h4,
 h5 {
   text-align: center;
   font-size: 35px;
-  margin-top: 45px;
+  margin-top: 20px;
   font-family: 'Bahianita', cursive;
 }
 
 .lookbook {
   background: black;
-  margin-top: 40px;
+  margin-top: 20px;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
 }
@@ -105,10 +106,10 @@ h5 {
   }
 }
 .shop-cat {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .three-blocks {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 @media (min-width: 765px) {
   .three-blocks .width {
@@ -120,7 +121,7 @@ h5 {
   background: #ccc;
   padding: 100px 40px 100px 40px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: whitesmoke;
   position: relative;
   border: 3px solid black;
@@ -139,6 +140,15 @@ h5 {
 .three-blocks h2 {
   position: relative;
   z-index: 2;
+}
+
+.three-blocks h2 a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.three-blocks h2 a:hover {
+  color: green;
 }
 
 .three-blocks .middle-block {
@@ -174,7 +184,7 @@ h5 {
   padding-top: 20px;
   padding-bottom: 20px;
   background: black;
-  margin-top: 40px;
+  margin-top: 20px;
   color: white;
 }
 
@@ -199,10 +209,9 @@ h5 {
   font-family: 'Bahianita', cursive;
   text-align: center;
 }
-
 @media (min-width: 765px) {
-  .top-flex {
-    display: flex;
+  .about-me {
+    text-align: left;
   }
 }
 
@@ -213,17 +222,21 @@ h5 {
   border: 3px solid black;
   margin-bottom: 20px;
 }
+@media (min-width: 765px) {
+  .top-flex {
+    width: 50%;
+  }
+}
 .par-font {
   padding-top: 25px;
-  font-family: 'Share Tech Mono', monospace;
-}
-.top-flex p {
-  margin-top: 25px;
-  display: flex;
+  padding-bottom: 25px;
+  font-family: 'Bahianita';
+  margin-left: 25px;
+  font-size: 30px;
 }
 
 @media (min-width: 765px) {
-  .top-flex p {
-    margin-top: 25px;
+  .lap-view {
+    display: flex;
   }
 }
